@@ -15,7 +15,7 @@
     <body>
         <%@include file="WEB-INF/jspf/navbar.jspf" %>
         <%@include file="WEB-INF/jspf/menu.jspf" %>
-        
+
         <h1>Amortizacao americana</h1>
         <br/>
         <form>
@@ -28,30 +28,56 @@
             <input type="submit" value="Calcular"/>
         </form>
         <br/>
-        <%
-            int qtdeParc = Integer.parseInt(request.getParameter("qtdeParcelas")); 
-            Float valorTotal = Float.parseFloat(request.getParameter("valorTotal"));
-            Float juros = Float.parseFloat(request.getParameter("juros"));
-        %>
         <% try { %>
-            <table class="table">
-                <thead class="thead-dark">
-                    <tr><th>Nro prestação</th><th>Amortização</th><th>Juros</th><th>Dívida</th></tr>
-                </thead>
-                <% for(int i=0; i<=qtdeParc; i++){ %>
-                    <tbody>
-                        <tr><th scope="row"><%= i %></th>
-                        <td>1</td>
-                        <td>1</td>
-                        <td> <%= valorTotal %> </td></tr>
-                    </tbody>
-                <% } %>
-            </table>
-        <% } catch(Exception e) { %>
-            <% if(request.getParameter("valor")!=null){ %>
-                <%= e%>
-            <%}%>
-        <% }%>
+        <%  int qtdeParc = Integer.parseInt(request.getParameter("qtdeParcelas"));
+            Float valorTotal = Float.parseFloat(request.getParameter("valorTotal"));
+            Float taxaJuros = Float.parseFloat(request.getParameter("juros"));
+            Float jurosMensal = valorTotal * (taxaJuros / 100);
+            Float jurosTotal = 0f;
+            int mes = 0;
+        %>
+        <table class="table table-sm">
+            <thead class="thead-dark">
+                <tr><th>Mês</th><th>Saldo devedor</th><th>Amortização</th><th>Juros</th><th>Prestação</th></tr>
+            </thead>
+            <tbody>
+                <% do { %>
+                <% if (mes == 0) {%>
+                <tr><th scope="row"><%= mes%></th>
+                    <td><%= valorTotal%></td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td></tr>
+                    <% } else if (mes < qtdeParc) {%>
+                <tr><th scope="row"><%= mes%></th>
+                    <td><%= valorTotal%></td>
+                    <td>-</td>
+                    <td><%= jurosMensal%></td>
+                    <td> <%= jurosMensal%> </td></tr>
+                    <%}
+                            mes++;
+                            jurosTotal += jurosMensal;
+                        } while (mes < qtdeParc);
+                        jurosTotal += jurosMensal;%>
+                <tr><th scope="row"><%= mes%></th>
+                    <td>-</td>
+                    <td><%= valorTotal%></td>
+                    <td><%= jurosMensal%></td>
+                    <td><%= valorTotal + jurosMensal%></td></tr>
+            </tbody> 
+            <tfoot>
+                <tr><th scope="row">TOTAL</th>
+                    <td></td>
+                    <td><%= valorTotal%></td>
+                    <td><%= jurosTotal%></td>
+                    <td><%= valorTotal + jurosTotal%></td></tr>
+            </tfoot>
+        </table>
+        <% } catch (Exception e) {
+                if (request.getParameter("valor") != null) {
+                    out.println(e);
+                }
+            }%>
         <%@include file="WEB-INF/jspf/footer.jspf" %>
     </body>
 </html>
