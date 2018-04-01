@@ -1,5 +1,21 @@
 <%@ page pageEncoding="UTF-8" %>
-<a href="home.jsp">Home</a> |
-<a href="amortizacao-constante.jsp">Amortizacao constante</a> |
-<a href="amortizacao-americana.jsp">Amortizacao americana</a> |
-<a href="tabela-price.jsp">Tabela PRICE</a> |
+<header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="home.jsp">Home</a>
+                </li> 
+                <li class="nav-item">
+                    <a class="nav-link" href="amortizacao-constante.jsp">Amortização Constante</a>
+                </li> 
+                <li class="nav-item">
+                    <a class="nav-link" href="amortizacao-americana.jsp">Amortização Americana</a>
+                </li> 
+                <li class="nav-item">
+                    <a class="nav-link" href="tabela-price.jsp">Tabela Price</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
