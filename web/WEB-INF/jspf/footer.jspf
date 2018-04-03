@@ -1,6 +1,6 @@
 <%@ page pageEncoding="UTF-8" %>
 <footer class="footer">
     <div class="container">
-        <span class="text-muted">Place sticky footer content here.</span>
+        <span class="text-muted">Equipe ABJN <sup> TM</sup> - All rights reserved.</span>
     </div>
 </footer>
