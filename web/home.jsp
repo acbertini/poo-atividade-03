@@ -24,10 +24,10 @@
             <h1>Equipe ABJN</h1>
             <h2> Integrantes</h2>
             <p> A equipe ABJN é formada pelos seguintes integrantes:</p>
-            <p> Ana Carolina Bertini</p>
-            <p> Brener Badures</p>
-            <p> João Paulo Soler</p>
-            <p> Nilson Lima</p>
+            <p> Ana Carolina Bertini<br>
+                Brener Badures<br>
+                João Paulo Soler<br>
+                Nilson Lima</p>
             <p> Alunos do 4º Ciclo do curso de ADS - Análise e Desenvolvimento de Sistemas, da FATEC-PG</p>
             <h2> Sobre a Aplicação</h2>
             <p> Esta aplicação tem como objetivo apresentar de forma clara e objetiva ao usuário,<br>
