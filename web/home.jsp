@@ -21,7 +21,18 @@
 
         <!-- Conteúdo da página-->
         <main role="main" class="container">
-            <h1>Home</h1>
+            <h1>Equipe ABJN</h1>
+            <h2> Integrantes</h2>
+            <p> A equipe ABJN é formada pelos seguintes integrantes:</p>
+            <p> Ana Carolina Bertini</p>
+            <p> Brener Badures</p>
+            <p> João Paulo Soler</p>
+            <p> Nilson Lima</p>
+            <p> Alunos do 4º Ciclo do curso de ADS - Análise e Desenvolvimento de Sistemas, da FATEC-PG</p>
+            <h2> Sobre a Aplicação</h2>
+            <p> Esta aplicação tem como objetivo apresentar de forma clara e objetiva ao usuário,<br>
+                os resultados dos cálculos das parcelas, bem como valor total e amortização,<br>
+                sobre um valor, seja ele um investimento ou um empréstimo</p>
         </main>
 
         <!-- Rodapé -->
