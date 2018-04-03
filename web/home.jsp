@@ -27,12 +27,14 @@
             <p> Ana Carolina Bertini<br>
                 Brener Badures<br>
                 João Paulo Soler<br>
-                Nilson Lima</p>
+                Nilson Lima - contato: <a href="mailto:nilsonli@gmail.com" title="">nilsonli@gmail.com</a>  </p>
             <p> Alunos do 4º Ciclo do curso de ADS - Análise e Desenvolvimento de Sistemas, da FATEC-PG</p>
             <h2> Sobre a Aplicação</h2>
-            <p> Esta aplicação tem como objetivo apresentar de forma clara e objetiva ao usuário,<br>
-                os resultados dos cálculos das parcelas, bem como valor total e amortização,<br>
-                sobre um valor, seja ele um investimento ou um empréstimo</p>
+            <p> Esta aplicação tem como objetivo apresentar de forma clara e objetiva ao usuário, <br>
+                os resultados dos  cálculos  das parcelas, bem  como valor total e  amortização, sobre <br>
+                o valor  de um  dado  empréstimo, aplicado pelas  técnicas  de  Amortização Americana,<br>
+                Amortização  Constante  e  Amortização  pela  Tabela  Price, onde  o  usuário  poderá <br>
+                comparar as tabelas apresentadas</p>
         </main>
 
         <!-- Rodapé -->
