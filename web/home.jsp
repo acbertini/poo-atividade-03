@@ -24,11 +24,16 @@
             <h1>Equipe ABJN</h1>
             <h2> Integrantes</h2>
             <p> A equipe ABJN é formada pelos seguintes integrantes:</p>
-            <p> Ana Carolina Bertini - contato: <a href="mailto:acbertini@gmail.com" title="">acbertini@gmail.com</a><br>
-                Brener Badures - contato: <a href="mailto:brener_bg@hotmail.com" title="">brener_bg@hotmail.com</a><br>
-                João Paulo Soler - contato: <a href="mailto:jpasoler@gmail.com" title="">jpasoler@gmail.com</a><br>
-                Nilson Lima - contato: <a href="mailto:nilsonli@gmail.com" title="">nilsonli@gmail.com</a>  </p>
-            <p> Alunos do 4º Ciclo do curso de ADS - Análise e Desenvolvimento de Sistemas, da FATEC-PG</p>
+            <table class="table table-sm">
+                <thead class="thead-dark">
+                    <tr><th>Nome</th><th>Contato</th></tr>
+                </thead>
+                <tr><th>Ana Carolina Bertini</th><th><a href="mailto:acbertini@gmail.com" title="">acbertini@gmail.com</a></th></tr>
+                <tr><th>Brener Badures</th><th><a href="mailto:brener_bg@hotmail.com" title="">brener_bg@hotmail.com</a></th></tr>
+                <tr><th>João Paulo Soler</th><th><a href="mailto:jpasoler@gmail.com" title="">jpasoler@gmail.com</a></th></tr>
+                <tr><th>Nilson José de Lima</th><th><a href="mailto:nilsonli@gmail.com" title="">nilsonli@gmail.com</a></th></tr>
+            </table>
+            <p> Todos alunos do 4º Ciclo do curso de ADS - Análise e Desenvolvimento de Sistemas, da FATEC-PG</p>
             <h2> Sobre a Aplicação</h2>
             <p> Esta aplicação tem como objetivo apresentar de forma clara e objetiva ao usuário, <br>
                 os resultados dos  cálculos  das parcelas, bem  como valor total e  amortização, sobre <br>
