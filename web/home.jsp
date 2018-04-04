@@ -24,9 +24,9 @@
             <h1>Equipe ABJN</h1>
             <h2> Integrantes</h2>
             <p> A equipe ABJN é formada pelos seguintes integrantes:</p>
-            <p> Ana Carolina Bertini<br>
-                Brener Badures<br>
-                João Paulo Soler<br>
+            <p> Ana Carolina Bertini - contato: <a href="mailto:acbertini@gmail.com" title="">acbertini@gmail.com</a><br>
+                Brener Badures - contato: <a href="mailto:brener_bg@hotmail.com" title="">brener_bg@hotmail.com</a><br>
+                João Paulo Soler - contato: <a href="mailto:jpasoler@gmail.com" title="">jpasoler@gmail.com</a><br>
                 Nilson Lima - contato: <a href="mailto:nilsonli@gmail.com" title="">nilsonli@gmail.com</a>  </p>
             <p> Alunos do 4º Ciclo do curso de ADS - Análise e Desenvolvimento de Sistemas, da FATEC-PG</p>
             <h2> Sobre a Aplicação</h2>
