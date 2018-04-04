@@ -28,10 +28,12 @@
                 <thead class="thead-dark">
                     <tr><th>Nome</th><th>Contato</th></tr>
                 </thead>
+                <tbody>
                 <tr><th>Ana Carolina Bertini</th><th><a href="mailto:acbertini@gmail.com" title="">acbertini@gmail.com</a></th></tr>
                 <tr><th>Brener Badures</th><th><a href="mailto:brener_bg@hotmail.com" title="">brener_bg@hotmail.com</a></th></tr>
                 <tr><th>João Paulo Soler</th><th><a href="mailto:jpasoler@gmail.com" title="">jpasoler@gmail.com</a></th></tr>
                 <tr><th>Nilson José de Lima</th><th><a href="mailto:nilsonli@gmail.com" title="">nilsonli@gmail.com</a></th></tr>
+                </tbody>
             </table>
             <p> Todos alunos do 4º Ciclo do curso de ADS - Análise e Desenvolvimento de Sistemas, da FATEC-PG</p>
             <h2> Sobre a Aplicação</h2>
