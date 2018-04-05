@@ -1,7 +1,7 @@
 <%-- 
     Document   : home
-    Created on : Mar 27, 2018, 8:23:53 AM
-    Author     : AnaBertini
+    Created on : Mar 28, 2018, 20:33:51 AM
+    Author     : Nilson Lima
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -21,7 +21,27 @@
 
         <!-- Conteúdo da página-->
         <main role="main" class="container">
-            <h1>Home</h1>
+            <h1>Equipe ABJN</h1>
+            <h2> Integrantes</h2>
+            <p> A equipe ABJN é formada pelos seguintes integrantes:</p>
+            <table class="table table-sm">
+                <thead class="thead-dark">
+                    <tr><th>Nome</th><th>Contato</th></tr>
+                </thead>
+                <tbody>
+                <tr><th>Ana Carolina Bertini</th><th><a href="mailto:acbertini@gmail.com" title="">acbertini@gmail.com</a></th></tr>
+                <tr><th>Brener Badures</th><th><a href="mailto:brener_bg@hotmail.com" title="">brener_bg@hotmail.com</a></th></tr>
+                <tr><th>João Paulo Soler</th><th><a href="mailto:jpasoler@gmail.com" title="">jpasoler@gmail.com</a></th></tr>
+                <tr><th>Nilson José de Lima</th><th><a href="mailto:nilsonli@gmail.com" title="">nilsonli@gmail.com</a></th></tr>
+                </tbody>
+            </table>
+            <p> Todos alunos do 4º Ciclo do curso de ADS - Análise e Desenvolvimento de Sistemas, da FATEC-PG</p>
+            <h2> Sobre a Aplicação</h2>
+            <p> Esta aplicação tem como objetivo apresentar de forma clara e objetiva ao usuário, <br>
+                os resultados dos  cálculos  das parcelas, bem  como valor total e  amortização, sobre <br>
+                o valor  de um  dado  empréstimo, aplicado pelas  técnicas  de  Amortização Americana,<br>
+                Amortização  Constante  e  Amortização  pela  Tabela  Price, onde  o  usuário  poderá <br>
+                comparar as tabelas apresentadas</p>
         </main>
 
         <!-- Rodapé -->
