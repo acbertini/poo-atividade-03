@@ -59,7 +59,9 @@
                 <thead class="thead-dark">
                     <tr><th>Parcelas</th><th>Saldo Devedor</th><th>Parcela</th><th>Juros</th><th>Amortizador</th></tr>
                 </thead>
+                 <tbody>
                     <% for(int i = 1; i <= qtdParc; i++){ %>
+                   
                     <tr>
                         <td><%= i %> </td>
                         <td><%= vlEmp %> </td>
@@ -67,10 +69,11 @@
                         <td><%= vlEmp * (vlJur/100) %> </td>
                         <td><%= Amort %></td>
                     </tr>
-                    <%= vlEmp = vlEmp - vlParc %>
-                    <%= Amort = vlParc - (vlEmp*(vlJur/100)) %>
-                    <% } %>
                     
+                    <% vlEmp = vlEmp - vlParc; %>
+                    <% Amort = vlParc - (vlEmp*(vlJur/100)); %>
+                    <% } %>
+                    </tbody>
             </table>
             
                     
